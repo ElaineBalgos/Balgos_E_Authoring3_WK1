@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     name: "Elaine", 
     role: "Student",
     nickname: "Leyn"

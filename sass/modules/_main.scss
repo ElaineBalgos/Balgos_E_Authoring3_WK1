@@ -10,6 +10,11 @@ body {
     border: 0;
 }
 
+.box {
+    width: 30px;
+    height: 30px;
+    @include roundCorners(50%);
+}
 // Javascript and SASS Comment
 
 /* CSS Comment */
