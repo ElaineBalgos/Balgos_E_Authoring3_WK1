@@ -1,4 +1,6 @@
-//main rules goes here
+// main rules go here
+
+// another generic comment
 
 body {
     font: $main-font;
@@ -13,8 +15,13 @@ body {
 .box {
     width: 30px;
     height: 30px;
+
+    @include roundCorners(20px);
+}
+
+.box2 {
+    width: 30px;
+    height: 30px;
+
     @include roundCorners(50%);
 }
-// Javascript and SASS Comment
-
-/* CSS Comment */

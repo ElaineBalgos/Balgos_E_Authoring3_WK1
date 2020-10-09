@@ -1,3 +1,3 @@
-module.exports = {
-    message: "I am the na module"
+export default = {
+    message: "i am the nav module"
 }
